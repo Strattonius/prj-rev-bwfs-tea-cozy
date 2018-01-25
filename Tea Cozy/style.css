@@ -1,0 +1,165 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.content {
+  position: relative;
+  top: 60px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Header image */
+
+header {
+  display: flex;
+  background-color: black;
+  border-bottom: solid seashell 1px;
+  height: 69px;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  top: 0;
+}
+
+.header {
+  display: flex;
+  padding-left: 10px;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.header img {
+  height: 50px;
+  width: auto;
+}
+
+/* nav bar */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-shrink: 0;
+  padding-right: 10px;
+}
+
+nav a {
+  margin: 10px;
+  color: seashell;
+}
+
+/* Mission */
+
+#mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+.missiontext {
+  background-color: black;
+
+}
+
+#mission h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#mission h4 {
+  margin-bottom: 10px;
+}
+
+/* Featured Teas */
+
+#featured {
+  margin-top: 60px;
+}
+
+.featured-teas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea-container {
+  margin: 0px 20px;
+}
+
+.tea-pic {
+  width: 300px;
+  height: 200px;
+}
+
+.tea-container h4 {
+  margin-top: 10px;
+}
+
+/* Locations */
+
+#locations {
+  margin-top: 60px;
+  padding-top: 60px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+}
+
+.locations {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 120px;
+}
+
+.location {
+  opacity: 1.0;
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+}
+
+.locationbanner {
+  margin-bottom: 0px;
+}
+
+.locationbanner h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.location p {
+  margin: 40px 15px;
+}
+
+/* Footer */
+
+.contact h2 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
